@@ -1,0 +1,103 @@
+@font-face {
+  font-family: 'Tangerine';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/tangerine/v17/IurY6Y5j_oScZZow4VOxCZZM.woff2) format('woff2');
+}
+/* styles généraux*/
+  body {
+    background-color: rgb(36, 42, 46);
+    color:azure;
+    font-family: Helvetica;
+    font-style: sans-serif;
+    }
+  p {
+    color:azure
+  }
+  .index-return-link {
+    color: rgb(58, 102, 221);
+  }
+
+/*index.html*/
+  .flex-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 100%;
+  }
+  .index-links-table {
+    font-size:50px;
+  }
+  .index-links {
+    color: rgb(58, 102, 221);
+  }
+
+/*poem.html*/
+  .red {
+    color: rgb(255,100,110);
+  }
+
+/*menu.html*/
+  /*tablaux*/  
+    .menu-contents-table {
+      font-family: 'Tangerine', serif;  
+      color:azure;
+      width: 30%;
+      height: 25%;
+      font-weight: 300;
+      }
+    .menu-contents-div {
+      font-family: 'Tangerine', serif;  
+      color:azure
+    }
+    .menu-table-head, .menu-table-body {
+    font-size: 30px;
+    }
+    .menu-table-caption {
+      font-size: 30px
+    }
+    .menu-tr-th, .menu-tr-td {
+      border-bottom: 1px dashed wheat;
+      text-align: center;
+      font-weight: 300;
+    }
+    .menu-links {
+      color: rgb(58, 102, 221);
+      text-decoration: none;
+      text-decoration: underline;
+      text-underline-offset: 7px;
+      text-rendering:optimizeLegibility;
+    }
+  .menu-images {
+    max-width: 500px;
+  }
+  .menu-conetents-descriptions {
+    font-size: 30px;
+  }
+
+/*Mon voyage.html*/
+  .voyage-links {
+    color: azure;
+    font-size: 25px;
+  }
+  #stars {
+    color: yellow;
+    }
+/*biographie.html*/
+  .biographie-table-head {
+    font-size: 22px;
+  }
+  .biographie-table-body {
+    font-size: 30px
+  }
+  .biographie-tr-td {
+    border: solid, wheat;
+    text-align: center;
+    border-right: 0px;
+    border-left: 0px;
+    border-top: 0px;
+  }
+  .bio-links {
+    color: rgb(58, 102, 221);
+  }
