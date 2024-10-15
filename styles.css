@@ -14,6 +14,9 @@
   p {
     color:azure
   }
+  .index-return-link {
+    color: rgb(58, 102, 221);
+  }
 
 /*index.html*/
   .flex-box {
