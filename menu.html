@@ -4,73 +4,81 @@
 		<title>menu</title>
 		<style>
 		</style>
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<!-- ^lien au document CSS externe pour les styles sur la page  -->
 	</head>
 	<body>
-		<h1>Menu</h1>
-		<p>
-			<table>
-				<caption>
-					Menu list
-				</caption>
-				<thead>
-					<tr>
-						<th>Jour</th>
-						<th>Plat</th>
-						<th>Prix</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<th>Lundi</th>
-						<td><a href="#1">1</a><td>
-						<td>$<td>
-					</tr>
-					<tr>
-						<th>Mardi</th>
-						<td><a href="#2">2</a><td>
-						<td>$<td>
-					</tr>
-					<tr>
-						<th>Mercredi</th>
-						<td><a href="#3">3</a><td>
-						<td>$<td>
-					</tr>
-					<tr>
-						<th>Jeudi</th>
-						<td><a href="#4">4</a><td>
-						<td>$<td>
-					</tr>
-					<tr>
-						<th>Vendredi</th>
-						<td><a href="#5">5</a><td>
-						<td>$<td>
-					</tr>
-					<tr>
-						<th>Samedi</th>
-						<td><a href="#6">6</a><td>
-						<td>$<td>
-					</tr>
-					<tr>
-						<th>Dimanche</th>
-						<td><a href="#7">7</a><td>
-						<td>$<td>
-					</tr>
-            </tbody>
-        </table>
+		<div class="menu-contents-div">
+		<!-- ^diviseur pour la section de la page avec ce qui contient les conetnus du menu -->
+			<h1>Menu</h1>
+			<p>
+				<table class="menu-contents-table">
+					<!-- ^tableau du menu -->
+					<caption class="menu-table-caption">
+						Menu list
+					</caption>
+					<thead class="menu-table-head">
+						<tr>
+							<th class="menu-tr-th">Jour</th>
+							<th class="menu-tr-td">Plat</th>
+							<th class="menu-tr-td">Prix</th>
+							<!-- ^Rangée du dessu -->
+						</tr>
+					</thead>
+					<tbody class="menu-table-body">
+						<tr>
+							<th class="menu-tr-th">Lundi</th>
+ 							<td class="menu-tr-td"><a class="menu-links" href="#1">1</a></td>
+							<td class="menu-tr-td">$</td>
+						</tr>
+						<tr>
+							<th class="menu-tr-th">Mardi</th>
+							<td class="menu-tr-td"><a class="menu-links" href="#2">2</a></td>
+							<td class="menu-tr-td">$</td>
+						</tr>
+						<tr>
+							<th class="menu-tr-th">Mercredi</th>
+							<td class="menu-tr-td"><a class="menu-links" href="#3">3</a></td>
+							<td class="menu-tr-td">$</td>
+						</tr>
+						<tr>
+							<th class="menu-tr-th">Jeudi</th>
+							<td class="menu-tr-td"><a class="menu-links" href="#4">4</a></td>
+							<td class="menu-tr-td">$</td>
+						</tr>
+						<tr>
+							<th class="menu-tr-th">Vendredi</th>
+							<td class="menu-tr-td"><a class="menu-links" href="#5">5</a></td>
+							<td class="menu-tr-td">$</td>
+						</tr>
+						<tr>
+							<th class="menu-tr-th">Samedi</th>
+							<td class="menu-tr-td"><a class="menu-links" href="#6">6</a></td>
+							<td class="menu-tr-td">$</td>
+						</tr>
+						<tr>
+							<th class="menu-tr-th">Dimanche</th>
+							<td class="menu-tr-td"><a class="menu-links" href="#7">7</a></td>
+							<td class="menu-tr-td">$</td>
+						</tr>
+				</tbody>
+			</table>
 		</p>
-		<h3 id="1">1</h3>
-		<p>hefjksdfjklcsjkhfhshkldb</p>
-		<h3 id="2">2</h3>
-		<p>hefjksdfjklcsjkhfhshkldb</p>
-		<h3 id="3">3</h3>
-		<p>hefjksdfjklcsjkhfhshkldb</p>
-		<h3 id="4">4</h3>
-		<p>hefjksdfjklcsjkhfhshkldb</p>
-		<h3 id="5">5</h3>
-		<p>hefjksdfjklcsjkhfhshkldb</p>
-		<h3 id="6">6</h3>
-		<p>hefjksdfjklcsjkhfhshkldb</p>
-		<h3 id="7">7</h3>
-		<p>hefjksdfjklcsjkhfhshkldb</p>
+		
+		<h3 id="1">Saimin</h3>
+		<p>Saimin authentique avec des oignons et boeuf.</p>
+		<h3 id="2">Loco Moco</h3>
+		<p>Loco Moco chaud servit avec du riz, boeuf et de l'oignon vert.</p>
+		<h3 id="3">Pizza</h3>
+		<p>Pizza avec fromage servit chaud avec option de pepperoni, saucisse, légumes ou anchois.</p>
+		<h3 id="4">Entrecôte avec Frites</h3>
+		<p>Grosse entrecôte de bœuf avec jus, haricots verts et frites.</p>
+		<h3 id="5">Lasagne</h3>
+		<p>Lasagne à trois fromages avec saucisses variées.</p>
+		<h3 id="6">Poutine</h3>
+		<p>Poutine classique avec fromage.</p>
+		<h3 id="7">Sauté de bœuf épicé</h3>
+		<p>Sauté de bœuf délicieux avec la soupe épicée.</p>
+		</div>
 	</body>
 </html>
