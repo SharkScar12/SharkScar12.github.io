@@ -15,10 +15,6 @@
     color:azure
   }
 
-  #stars {
-    color: yellow;
-    }
-
 /*index.html*/
   .flex-box {
     display: flex;
@@ -70,9 +66,32 @@
       text-underline-offset: 7px;
       text-rendering:optimizeLegibility;
     }
+  .menu-images {
+    max-width: 500px;
+  }
+  .menu-conetents-descriptions {
+    font-size: 30px;
+  }
 
 /*Mon voyage.html*/
- .voyage-links {
-  color: azure;
-  font-size: 25px;
- }
+  .voyage-links {
+    color: azure;
+    font-size: 25px;
+  }
+  #stars {
+    color: yellow;
+    }
+/*biographie.html*/
+  .biographie-table-head, .biographie-table-body {
+    font-size: 30px;
+  }
+  .biographie-tr-td {
+    border: solid, wheat;
+    text-align: center;
+    border-right: 0px;
+    border-left: 0px;
+    border-top: 0px;
+  }
+  .bio-links {
+    color: rgb(58, 102, 221);
+  }
